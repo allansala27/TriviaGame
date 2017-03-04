@@ -1,0 +1,27 @@
+body {
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#logo {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: .5em;
+	color: white;
+	font-family: 'Sigmar One', cursive;
+	font-size: 95px;
+	text-shadow: 5px 5px 10px black;
+}
+
+#start_button {
+	font-family: 'Sigmar One', cursive;
+	text-shadow: 2px 2px 4px black;
+	font-size: 70px;
+}
+
+#questions {
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 22px;
+	color: white;
+
+}
