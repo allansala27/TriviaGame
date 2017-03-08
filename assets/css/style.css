@@ -20,8 +20,21 @@ body {
 }
 
 #questions {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 70%;
+	height: 300px;
 	font-family: 'Pontano Sans', sans-serif;
-	font-size: 22px;
+	font-size: 20px;
 	color: white;
+	text-shadow: 2px 2px 4px black;
+	overflow: auto;
+	padding-bottom: 40px;
+}
+
+#score {
+	color: white;
+	font-family: 'Sigmar One', cursive;
+	font-size: 60px;
+	text-shadow: 5px 5px 10px black;
 
 }

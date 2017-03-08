@@ -8,22 +8,93 @@
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 </head>
 <body>
-<header>
-	<center>
-		<img src="assets/images/logo.png">
-		<p id="logo"><span id="timer">TRIVIA!</span></p>
-	</center>	
-</header>
-<div class="row">
-	<center>
-		<span id="questions">
+	<header>
+		<center>
+			<img src="assets/images/logo.png">
+			<p id="logo"><span id="results"><span id="timer">TRIVIA!</span></span></p>
+		</center>	
+	</header>
+	<div class="row">
+		<center>
 			<div id="start_button" class="btn btn-lg btn-danger" type="button">
 				Start
 			</div>
-		</span>	
-	</center>	
-</div>
-
+			<div id="questions">
+				<p>What was the name of Rick's old band with Birdperson and Squanchy?
+					<br>
+					<input type="radio" name= "question1" value="incorrect"> Gazorpazorps
+					<input type="radio" name= "question1" value="correct"> The Flesh Curtains
+					<input type="radio" name= "question1" value="incorrect"> Arboles Mentirosos
+					<input type="radio" name= "question1" value="incorrect"> Mortified
+				<br>
+				<p>How many quadrants must Jan Michael Vincent watch over?
+					<br>
+					<input type="radio" name= "question2" value="correct"> 16
+					<input type="radio" name= "question2" value="incorrect"> 100
+					<input type="radio" name= "question2" value="incorrect"> 20
+					<input type="radio" name= "question2" value="incorrect"> 8
+				<br>
+				<p>Who is Birdperson's wife?
+					<br>
+					<input type="radio" name= "question3" value="incorrect"> Summer
+					<input type="radio" name= "question3" value="incorrect"> Jessica
+					<input type="radio" name= "question3" value="correct"> Tammy
+					<input type="radio" name= "question3" value="incorrect"> Veronica
+				<br>
+				<p> What did Roy sell the the Arcade game "Roy"?
+					<br>
+					<input type="radio" name= "question4" value="incorrect"> Mattresses
+					<input type="radio" name= "question4" value="incorrect"> Electronics
+					<input type="radio" name= "question4" value="correct"> Carpet
+					<input type="radio" name= "question4" value="incorrect"> Insurance
+				<br>
+				<p> What was Morty Jr's favorite TV channel?
+					<br>
+					<input type="radio" name= "question5" value="incorrect"> The Comedy Network
+					<input type="radio" name= "question5" value="correct"> The History Channel
+					<input type="radio" name= "question5" value="incorrect"> Cartoon Channel
+					<input type="radio" name= "question5" value="incorrect"> Dancing Channel
+				<br>
+				<p> From what Dimension is the Rick and Morty of the show from?
+					<br>
+					<input type="radio" name= "question6" value="incorrect"> Dimension C-500A
+					<input type="radio" name= "question6" value="incorrect"> Dimension J19ζ7
+					<input type="radio" name= "question6" value="incorrect"> Dimension 304-X
+					<input type="radio" name= "question6" value="correct"> Dimension C-137
+				<br>
+				<p> What is the name of Morty's Dog?
+					<br>
+					<input type="radio" name= "question7" value="incorrect"> Mr. Poopybutthole
+					<input type="radio" name= "question7" value="incorrect"> Ruffles
+					<input type="radio" name= "question7" value="correct"> Snuffles
+					<input type="radio" name= "question7" value="incorrect"> Dogperson
+				<br>
+				<p> Who was Beth married to in the episode "Total Rickall"?
+					<br>
+					<input type="radio" name= "question8" value="incorrect"> Gene Vagina
+					<input type="radio" name= "question8" value="incorrect"> Jerry
+					<input type="radio" name= "question8" value="incorrect"> Devon
+					<input type="radio" name= "question8" value="correct"> Sleepy Gary
+				<br>
+				<p> What planet is Ice T from?
+					<br>
+					<input type="radio" name= "question9" value="correct"> Alphabetrium
+					<input type="radio" name= "question9" value="incorrect"> Pluto
+					<input type="radio" name= "question9" value="incorrect"> Earth
+					<input type="radio" name= "question9" value="incorrect"> Cobb Planet
+				<br>
+				<p> Who is Rick's ex?
+					<br>
+					<input type="radio" name= "question10" value="incorrect"> Peace
+					<input type="radio" name= "question10" value="correct"> Love
+					<input type="radio" name= "question10" value="incorrect"> Unity 
+					<input type="radio" name= "question10" value="incorrect"> Respect	
+			</div>
+			<span id="score">
+				0/6...
+			</span>
+		</center>	
+	</div>
 <div id="audio_control" class="navbar navbar-fixed-bottom">
 	<button id="music" class="glyphicon glyphicon-music">
 	<button id="mute" class="glyphicon glyphicon-volume-off">
