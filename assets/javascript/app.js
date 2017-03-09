@@ -67,17 +67,18 @@ function getScore(){
 
 function giveScore(userScore){
 	if (userScore <= 4) {
-		$("#score").prepend('<img src="..assets/images/jerry.png">');
 		$("#score").html(userScore + "/10");
+		$("#score").append('<img src="assets/images/jerry.png">');
 	}
 
 	else if (userScore <= 8) {
-		$("#score").prepend('<img src="..assets/images/morty.png">');
 		$("#score").html(userScore + "/10");
+		$("#score").append('<img src="assets/images/morty.png">');		
 	}
 	else {
-		$("#score").prepend('<img src="..assets/images/rick.png">');
 		$("#score").html(userScore + "/10");
+		$("#score").append('<img src="assets/images/rick.png">');
+
 	}
 }
 
