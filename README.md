@@ -1,7 +1,7 @@
 # HW - {TriviaGame}
 
 ## Live Link (If relevant)
- - www.example.com
+ - https://allansala27.github.io/TriviaGame/
 
 ## Description on how to use the app
 - Press start and answer as many questions as you can before time runs out. You can stop the music with the buttons at the bottom left. 
